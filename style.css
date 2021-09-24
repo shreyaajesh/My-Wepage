@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+}
+#intro{
+    background-color:#cc66ff;
+}
+#apps{
+    background-color:#ff66ff;
+}
+#games{
+    background-color: #ff6699;
+}
+#bot{
+    background-color: #ff5050;
+}
+#contact{
+    background-color: deeppink;
+}
+.menu{
+list-style: none;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    cursor: pointer;
+}
+.links{
+    display: inline;
+    font-size: 20px;
+    float:left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.contact1 h3{
+display: inline;
+}
